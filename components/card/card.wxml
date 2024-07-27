@@ -1,0 +1,5 @@
+<view class="card">
+  <view class="card-content">
+    <text class="card-description">{{result}}</text>
+  </view>
+</view>

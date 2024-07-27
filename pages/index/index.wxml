@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="row">
+    <view class="main1" wx:for="{{ homeData }}" wx:key="id" bind:tap="onItem" data-item="{{item}}">
+      <view class="item-kfc-1">
+        <image class="item-image" src="{{item.icon}}"></image>
+      </view>
+      <view>
+        <view class="item-kfc-item1">{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+</view>
